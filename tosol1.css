@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+}
+
+/* head */
+.head {
+  height: 58px;
+  background-color: black;
+}
+/* flex */
+.flex {
+  display: flex;
+  justify-content: center;
+}
+/* p_txt */
+.p_txt {
+  color: white;
+  display: flex;
+  padding: 8px;
+}
+.p_txt2 {
+  font-size: 80px;
+  font-weight: 800;
+  color: #303030;
+  text-align: center;
+  margin-top: 80px;
+}
+.p_txt3 {
+  font-size: 32px;
+  color: #1ac74a;
+}
+.p_txt4 {
+  font-size: 48px;
+  color: #303030;
+}
+/* img */
+.img {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 12px;
+  margin-left: 66px;
+  margin-top: 40px;
+  width: 250px;
+  height: 400px;
+}
+
+/* main */
+main {
+  margin-top: 250px;
+  margin-left: 120px;
+}
+/* button */
+.button {
+  display: block;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 85px;
+}
+.e_but {
+  background-color: white;
+  padding: 20px;
+  width: 308px;
+  height: 373px;
+}
+.but_txt {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.but_ptxt {
+  display: flex;
+  justify-content: end;
+  color: #777777;
+  font-size: 12px;
+}

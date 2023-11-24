@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+}
+.flex {
+  display: flex;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(244, 244, 244);
+}
+.outer-con {
+  width: 100vw;
+  height: 100vh;
+}
+.main-con {
+  width: 1070px;
+  height: 100vh;
+}
+
+/* header */
+.head {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin-top: 15px;
+}
+.head > .sect_fir {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.head-info {
+  gap: 30px;
+}
+.head-info {
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-right: 50px;
+}
+.head-info-2 {
+  gap: 30px;
+}
+.hd-in-2 {
+  margin-top: 10px;
+  gap: 10px;
+}
+.hd-in-2 > p {
+  font-size: 18px;
+}
+.head-info > div {
+  gap: 10px;
+}
+.head-sel {
+  background-color: rgb(244, 244, 244);
+  border: none;
+}
+.head-but {
+  border: none;
+  background-color: rgb(244, 244, 244);
+}
+.logo {
+  align-items: center;
+  width: 120px;
+}
+/* section2 */
+.sect_sec {
+  margin-top: 30px;
+}
+.hd-info {
+  box-sizing: border-box;
+  background-color: rgb(236, 236, 236);
+  width: 525px;
+  height: 400px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 20px;
+}
+.hd-info > .hd-1 {
+  border-radius: 60px;
+  color: white;
+  background-color: rgb(206, 55, 0);
+  width: 70px;
+  height: 30px;
+}
+.hd-info > .hd-1 > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hd-info > .hd-1,
+h1,
+p {
+  margin-bottom: 30px;
+}
+.hd-shr {
+  box-sizing: border-box;
+  border-radius: 24px;
+  background-color: lightgray;
+  width: 60px;
+  height: 30px;
+  justify-content: center;
+  /* align-items: center; */
+}
+.hd-img {
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 525px;
+  height: 400px;
+}
+.inf-con {
+  gap: 10px;
+}
+.inf {
+  width: 252.5px;
+}
+.inf > img {
+  width: 252.5px;
+}
+.inf > div {
+  gap: 20px;
+}
+.inf > div > div {
+  gap: 5px;
+}
+.inf > img {
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 250px;
+  height: 160px;
+}
+.inf > h4,
+div {
+  margin-top: 15px;
+}
+/* main */
+.main-con {
+  font-weight: 100vw;
+  background-color: white;
+}
+.main-title > button {
+  background-color: black;
+}

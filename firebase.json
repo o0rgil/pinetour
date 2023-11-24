@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "gogo",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
